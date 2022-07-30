@@ -1,0 +1,88 @@
+// HTML (Hypertext Markup Language)
+Fondasi tampilan website
+=> Bahasa markup (bukan pemrograman) karena tidak memiliki logic, conditional, tidak bisa diberi tugas menyelesaikan masalah
+
+
+// CSS 
+=> Untuk memberikan style pada bahasa markup
+
+
+// Penulisan CSS :
+1. Inline 
+        <body>
+            <h1 style="background-color: red;">Hello Dev</h1>
+        </body>
+
+2. Internal
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>first-project</title>
+            <style>
+                p{
+                    // isi style
+                }
+            </style>
+        </head>
+
+3. External
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>first-project</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
+
+
+// Selector
+    - id : #
+    - class : .
+    - child : 
+    => .html 
+        <div class="select">
+            <p id="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+    => .css 
+        div.select p#paragraph {
+            background-color: blue;
+        }
+
+
+// Box Model
+    - width     = lebar
+    - height    = tinggi
+    - border    = garis pembatas 
+    - padding   = jarak ke dalam dari border ke konten
+    - margin    = jarak keluar dari sebuah border
+    - border box = mengubah ukuran box menjadi sesuai dengan ukuran yang ditentukan dengan menyesuaikan ukuran konten
+
+
+// Satuan Ukur 
+    => Absolute (pasti)
+        - cm
+        - in 
+        - mm 
+        - pc 
+        - pt 
+    => Relativ (tidak pasti - mengikuti ukuran berdasarkan element yang didefinisikan)
+        - %
+        - em 
+        - rem 
+        - vh
+        - vw 
+
+
+// Flexbox
+=> Memudahkan dalam membuat layout dan mengatur jarak antar element
+    Dua element utama :
+    1. flex-container  = parent/pembungkus
+    2. flex-item       = tempat meletakkan konten
+    3. flex-wrap       = memindahkan flex item ke baris baru bila sudah memenuhi batas lebar containernya 
+    4. flex-direction  = mengubah urutan flex item dari kiri > kanan / sebaliknya, serta dari atas > bawah / sebaliknya
+            per-baris : row / row-reverse
+            per-kolom : column / column-reverse
+    5. justify-content = mengatur posisi dari item-item yang ada pada container
+    6. align-items     = mengatur posisi item-item yang ada pada container secara vertikal 
