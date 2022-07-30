@@ -1,39 +1,38 @@
 div.select p#paragraph {
-    background-color: blue;
-    width: 100%;
-  }
-  .kotak1 {
-    background-color: blueviolet;
-    width: 100px;
-    height: 100px;
-    border: 15px solid tomato;
-    padding: 50px;
-    margin: 50px;
-  }
-  .kotak2 {
-    background-color: chartreuse;
-    width: 100px;
-    height: 100px;
-    border: 15px solid tomato;
-    padding: 50px;
-    margin: 50px;
-    box-sizing: border-box;
-  }
-  .container{
-    display: flex;
-    background-color: greenyellow;
-    /* width: 500px; */
-    /* flex-wrap: wrap; */
-    /* flex-direction: row-reverse; */
-    /* justify-content: space-evenly; */
-    height: 500px;
-    align-items: center;
-    justify-content: center;
-    border: 10px solid tomato;
-
-  }
-  .box{
-    border: 1px solid;
-    padding: 20px;
-    /* width: 100px; */
-  }
+  background-color: blue;
+  width: 100%;
+}
+.kotak1 {
+  background-color: blueviolet;
+  width: 100px;
+  height: 100px;
+  border: 15px solid tomato;
+  padding: 50px;
+  margin: 50px;
+}
+.kotak2 {
+  background-color: chartreuse;
+  width: 100px;
+  height: 100px;
+  border: 15px solid tomato;
+  padding: 50px;
+  margin: 50px;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  background-color: greenyellow;
+  /* width: 500px; */
+  /* flex-wrap: wrap; */
+  /* flex-direction: row-reverse; */
+  /* justify-content: space-evenly; */
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  border: 10px solid tomato;
+}
+.box {
+  border: 1px solid;
+  padding: 20px;
+  /* width: 100px; */
+}

@@ -1,22 +1,22 @@
-.artikel{
-    border-bottom: 1px solid thistle;
-    margin: 40px 20px;
+.artikel {
+  border-bottom: 1px solid thistle;
+  margin: 40px 20px;
 }
 
-.artikel h3{
-    color: cornflowerblue;
-    margin-top: 0px;
+.artikel h3 {
+  color: cornflowerblue;
+  margin-top: 0px;
 }
 
-.artikel p{
-    margin-bottom: 0px;
+.artikel p {
+  margin-bottom: 0px;
 }
 
-.artikel:last-child{
-    border-bottom: none;
-    margin-bottom: 0px;
+.artikel:last-child {
+  border-bottom: none;
+  margin-bottom: 0px;
 }
 
-.artikel:first-child{
-    margin-top: 0px;
+.artikel:first-child {
+  margin-top: 0px;
 }
